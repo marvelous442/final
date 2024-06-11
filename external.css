@@ -1,0 +1,88 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:;
+    font-family: Arial, sans-serif;
+    background-image: url('background.JPG'); /* Replace 'background.jpg' with the path to your image */
+    background-size: cover; /* This ensures the image covers the entire background */
+   
+    background-position: center; /* Centers the background image */
+    }
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0 20px;
+    border-left: 100px;
+    
+}
+
+header {
+    background-image: url('header.JPG'); /* Replace 'header-background.jpg' with the path to your image */
+    background-size: cover; /* This ensures the image covers the entire header */
+    background-position: center; /* Centers the background image */
+    color: #fff;
+    padding: 20px 0;
+    max-height: 150px;
+    
+}
+
+header h1 {
+    float: left;
+}
+
+nav ul {
+    text-align: center;
+    color: green;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.btn {
+    display: inline-block;
+    background-color: #ff6f00;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+    text-align: right;
+}
+
+.btn:hover {
+    background-color: orangered
+    }
+    .container
+    {
+        border-radius: 100px 0;
+        padding-right: ;
+    }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 20px 0 ;
+    margin-top: 100px;
+    margin-bottom: 200px;
+
+    
+}
